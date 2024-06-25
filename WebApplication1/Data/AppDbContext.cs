@@ -1,4 +1,4 @@
-//classe usada para configurar e acessar o banco de dados em uma aplicação ASP.NET Core.
+//classe usada para configurar e acessar o banco de dados em uma aplicação ASP.NET Core
 
 using Bookstore.Models;
 using Microsoft.EntityFrameworkCore;

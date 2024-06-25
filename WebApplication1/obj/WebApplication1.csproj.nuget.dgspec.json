@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anaps\\OneDrive\\Documentos\\Topicos Especiais\\Livraria\\WebApplication1\\WebApplication1.csproj": {}
+    "c:\\Users\\anaps\\OneDrive\\Documentos\\Topicos Especiais\\Livraria back\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anaps\\OneDrive\\Documentos\\Topicos Especiais\\Livraria\\WebApplication1\\WebApplication1.csproj": {
+    "c:\\Users\\anaps\\OneDrive\\Documentos\\Topicos Especiais\\Livraria back\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anaps\\OneDrive\\Documentos\\Topicos Especiais\\Livraria\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "c:\\Users\\anaps\\OneDrive\\Documentos\\Topicos Especiais\\Livraria back\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\anaps\\OneDrive\\Documentos\\Topicos Especiais\\Livraria\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "c:\\Users\\anaps\\OneDrive\\Documentos\\Topicos Especiais\\Livraria back\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\anaps\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anaps\\OneDrive\\Documentos\\Topicos Especiais\\Livraria\\WebApplication1\\obj\\",
+        "outputPath": "c:\\Users\\anaps\\OneDrive\\Documentos\\Topicos Especiais\\Livraria back\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anaps\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,25 +43,29 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.6, )"
             },
             "NSwag.AspNetCore": {
               "target": "Package",
-              "version": "[14.0.7, )"
+              "version": "[14.0.8, )"
             }
           },
           "imports": [

@@ -1,7 +1,16 @@
 namespace Bookstore.Models
 {
+    public class Book
+    {
+        public Guid Id { get; set; }
+        public string Title { get; set; }
+        public string Author { get; set; }
 
-    //Define uma classe chamada Book, criando os atributos do livro
-    public record Book(Guid Id, string Title, string Author);
+        public Book(Guid id, string title, string author)
+        {
+            Id = id;
+            Title = title;
+            Author = author;
+        }
+    }
 }
-
